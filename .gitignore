@@ -1,0 +1,42 @@
+node_modules/
+backend/node_modules/
+.expo/
+.expo-shared/
+dist/
+npm-debug.*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (CRITICAL)
+.env
+.env*
+backend/.env
+backend/.env*
+
+# Build files
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Sensitive files
+google-services.json
+GoogleService-Info.plist
+*.keystore
+credentials.json
+
+# OS files
+.DS_Store
+._*
+
+# Logs
+*.log
+backend/*.log
+backend/logs/
+
+# Development builds
+android/app/build/
+ios/build/
