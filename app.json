@@ -41,7 +41,8 @@
           "icon": "./assets/notification-icon.png",
           "color": "#ffffff"
         }
-      ]
+      ],
+      "expo-build-properties"
     ],
     "extra": {
       "eas": {
