@@ -19,8 +19,8 @@ if (!isWeb) {
   });
 }
 
-// Use network IP instead of localhost for mobile device connectivity
-const BULL_QUEUE_SERVER = process.env.EXPO_PUBLIC_PUSH_API_ENDPOINT?.replace('/api/push-messages', '') || 'http://192.168.5.221:3001';
+// Use production backend URL
+const BULL_QUEUE_SERVER = process.env.EXPO_PUBLIC_PUSH_API_ENDPOINT?.replace('/api/push-messages', '') || 'https://sephealthbackend.onrender.com';
 const API_ENDPOINT = `${BULL_QUEUE_SERVER}/api/push-messages`;
 const DEVICE_REGISTER_ENDPOINT = `${BULL_QUEUE_SERVER}/api/device/register`;
 
